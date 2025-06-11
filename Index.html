@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Medical IntelleCare</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <div class="logo-title">
+        <h1>Medical<br><span>IntelleCare</span></h1>
+        <button class="get-started">Get Started</button>
+      </div>
+      <img src="https://undraw.co/api/illustrations/landing.svg" alt="Landing Illustration" class="header-img">
+    </div>
+  </header>
+  <section class="clients">
+    <h2>Our Clients</h2>
+    <p>List of companies and organizations that trust us</p>
+    <div class="client-logos">
+      <i class="fab fa-apple"></i>
+      <i class="fab fa-google"></i>
+      <i class="fab fa-microsoft"></i>
+      <i class="fab fa-amazon"></i>
+      <i class="fab fa-facebook"></i>
+    </div>
+  </section>
+  <section class="why-choose">
+    <h2>Why choose us</h2>
+    <div class="choose-options">
+      <div>Convenience</div>
+      <div>Wide Network</div>
+      <div>Personalized Care</div>
+    </div>
+  </section>
+  <section class="services">
+    <div class="service-content">
+      <img src="https://undraw.co/api/illustrations/services.svg" alt="Services Illustration">
+      <div>
+        <h2>Our Services</h2>
+        <p>We offer a wide range of medical services tailored to your needs.</p>
+        <button class="learn-more">Learn More</button>
+      </div>
+    </div>
+  </section>
+  <section class="features">
+    <h2>Key Features of MedicalIntelleCare</h2>
+    <div class="feature-list">
+      <div>
+        <i class="fas fa-user-md"></i>
+        <p>Expert Doctors</p>
+      </div>
+      <div>
+        <i class="fas fa-network-wired"></i>
+        <p>Wide Network</p>
+      </div>
+      <div>
+        <i class="fas fa-heartbeat"></i>
+        <p>Personalized Care</p>
+      </div>
+      <div>
+        <i class="fas fa-headset"></i>
+        <p>24/7 Support</p>
+      </div>
+    </div>
+  </section>
+  <section class="explore">
+    <div class="explore-content">
+      <img src="https://undraw.co/api/illustrations/explore.svg" alt="Explore Illustration">
+      <div>
+        <h2>Explore Our Product</h2>
+        <p>Discover how MedicalIntelleCare can help you manage your health efficiently and effectively.</p>
+        <button class="explore-btn">Explore</button>
+      </div>
+    </div>
+  </section>
+  <section class="testimonials">
+    <h2>What our customers say</h2>
+    <div class="testimonial">
+      <img src="https://undraw.co/api/illustrations/testimonial.svg" alt="Testimonial">
+      <p>"MedicalIntelleCare has transformed the way I manage my health!"</p>
+      <span>- Happy Customer</span>
+    </div>
+  </section>
+  <section class="faq">
+    <h2>FAQ</h2>
+    <div class="faq-item">
+      <button class="faq-question">What is MedicalIntelleCare?</button>
+      <div class="faq-answer">MedicalIntelleCare is a platform that provides personalized medical care and connects you with expert doctors.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">How do I get started?</button>
+      <div class="faq-answer">Click the "Get Started" button at the top to begin your journey with us.</div>
+    </div>
+  </section>
+  <footer>
+    <div class="footer-content">
+      <div>© 2024 Medical IntelleCare. All rights reserved.</div>
+      <div>
+        <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+  <!-- Chatbot Bubble and Chatbox -->
+  <div id="chatbot-bubble">
+    <i class="fas fa-comment-dots"></i>
+  </div>
+  <div id="chatbot-box" class="hidden">
+    <div class="chatbot-header">
+      <span>Ask IntelleCare AI</span>
+      <button id="chatbot-close">&times;</button>
+    </div>
+    <div class="chatbot-messages" id="chatbot-messages">
+      <div class="chatbot-message bot">Hi! 👋 How can I help you learn more about Medical IntelleCare?</div>
+    </div>
+    <form id="chatbot-form">
+      <input type="text" id="chatbot-input" placeholder="Type your question..." autocomplete="off" required />
+      <button type="submit"><i class="fas fa-paper-plane"></i></button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
